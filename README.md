@@ -2,7 +2,8 @@
 
   Arduino IDE Library to read cheap ultrasonic car parking sensors.
 
-  NOTE: This repository still under construction. Soon it will have complete information about the module hardware and data formats.
+  NOTE: This repository still under construction. Soon it will have complete 
+  information about the module hardware and data formats.
 
 ```c
 #include "CarSensor.h"
@@ -26,7 +27,8 @@ void loop() {
 
 ## Pulse Train
 
-The pulse train consists of 50 bits. The first 4 bytes are the sensors readings. They come in a strange order:
+The pulse train consists of 50 bits. The first 4 bytes are the sensors readings. 
+They come in a strange order:
 
 Pulse train example:
 00000000 00000000 00000000 00000000 000010010 11 00 00 00
@@ -39,7 +41,9 @@ Fourth byte - sensor D
 ## Compatibility
 
 	* Arduinos (UNO & Pro-micro tested)
-	* ESP32 (Lolin32 and ESP32 Dev. Module tested). Remember, these modules are 3.3V. Be sure to make a voltage divider with 2 resistors.
+	* ESP32 (Lolin32 and ESP32 Dev. Module tested). 
+	Remember, these modules are 3.3V. Be sure to make a voltage divider 
+	with 2 resistors.
 
 
 

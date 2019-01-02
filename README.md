@@ -1,6 +1,6 @@
 ## CarSensor
 
-  Arduino IDE Library to read cheap car parking sensors.
+  Arduino IDE Library to read cheap ultrasonic car parking sensors.
 
   NOTE: This repository still under construction. Soon it will have complete information about the module hardware and data formats.
 
@@ -41,6 +41,6 @@ Fourth byte - sensor D
 	* Arduinos (UNO & Pro-micro tested)
 	* ESP32 (Lolin32 and ESP32 Dev. Module tested). Remember, these modules are 3.3V. Be sure to make a voltage divider with 2 resistors.
 
-	
+
 
 
